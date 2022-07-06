@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css"> 
+  <script src="./index.js"></script> 
+  <title>Calculator App</title>
+</head>
+<body>
+  <main>
+    <div>
+      <h1 class="result"></h1>
+      <p class="equation"></p>
+    </div>
+    <div class="button_grid">
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">C</button>
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">AC</button>
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">&#177;</button>
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">&#247</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">7</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">8</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">9</button>
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">&times;</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">4</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">5</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">6</button>
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">&minus;</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">1</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">2</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">3</button>
+      <button readonly tabindex="-1" class="blue_text" onclick="onButtonClick(event);">+</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">0</button>
+      <button readonly tabindex="-1" onclick="onButtonClick(event);">.</button>
+      <button readonly tabindex="-1" class="equals_button" onclick="onButtonClick(event);">=</button>
+    </div>
+    <p class="credits">By Gavin Noktes</p>
+  </main>
+</body>
+</html>
